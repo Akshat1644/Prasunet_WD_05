@@ -1,0 +1,123 @@
+.head{
+    margin-top: 100px;
+}
+
+body, h1, h2, h3, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Set body font and background */
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .head {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .weather-input {
+    margin-bottom: 20px;
+  }
+  
+  .weather-input h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .city-input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .search-btn, .location-btn {
+    padding: 10px 20px;
+    background: #00c6ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-btn:hover, .location-btn:hover {
+    background: #009ecd;
+  }
+  
+  .separator {
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+  }
+  
+  .weather-data {
+    margin-top: 20px;
+  }
+  
+  .current-weather .details {
+    background: rgba(0, 198, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .days-forecast {
+    text-align: left;
+  }
+  
+  .days-forecast h2 {
+    margin-bottom: 10px;
+  }
+  
+  .weather-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .card {
+    background: rgba(0, 198, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1 1 calc(20% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin-bottom: 5px;
+  }
+  
+  .card h6 {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  .details h6{
+    font-size: 14px;
+    margin-top: 5px;
+  }
